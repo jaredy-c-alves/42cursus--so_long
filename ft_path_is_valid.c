@@ -39,7 +39,7 @@ static void	ft_delete(char **matrix)
 	size_t	i;
 
 	i = 0;
-	if (matrix != NULL)
+	if (matrix == NULL)
 		return ;
 	while (matrix[i] != NULL)
 	{
